@@ -62,22 +62,7 @@ input {
     border: 1px solid #000;
 }
 
-.blog{
-    height: 2rem;
-}
-
-button {
-    background: #000080;
-    color: #ffffff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-textarea {
+#blog{
     width: 96.5%;
     height: auto;
     padding: 8px;
@@ -88,6 +73,18 @@ textarea {
     color: #000;
     resize: vertical;
 }
+
+#submit {
+    background: #000080;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .close-btn {
     position: absolute;
     right: 10px;
