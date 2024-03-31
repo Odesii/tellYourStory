@@ -1,6 +1,6 @@
 const handel = document.querySelector(`#handel`)
 const title =  document.querySelector(`#title`)
-const  blog = document.querySelector(`#blog`)
+const blog = document.querySelector(`#blog`)
 const submitBttn = document.querySelector(`#submit`)
 
 submitBttn.addEventListener('click', function(event) {
