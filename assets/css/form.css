@@ -99,11 +99,20 @@ input {
 
 img {
     position: relative;
-    max-width: 100%; /* Make the image responsive */
+    max-width: 100%; 
     height: auto; /* Maintain the aspect ratio */
     flex: 1 1 300px; /* Flex grow, shrink, and basis. This makes the image responsive */
 }
 
+button {
+    font-size: 10px;
+    background-color: #c0c0c0;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
 @media (max-width: 600px) {
     .form-container {
@@ -113,3 +122,51 @@ img {
 
 
 
+.dark-color{
+    background-color: black;
+}
+.dark-color .window{
+    background-color: #000000;
+    border: 1px solid rgb(0, 255, 0);
+}
+
+.dark-color .window::before {
+    background: rgb(0, 255, 0);
+    color: black;
+}
+
+.dark-color label{
+    color: limegreen;
+    background-color: black;
+}
+
+.dark-color input {
+    color: limegreen;
+    background-color: black;
+    border: 1px solid limegreen;
+}
+
+.dark-color .close-btn {
+    background-color: #000;
+    color: limegreen;
+    border: 1px solid limegreen;
+    box-shadow: limegreen 1px 1px 1px;
+}
+
+.dark-color button {
+    border: 1px solid limegreen;
+    color: limegreen;
+    background-color: black; 
+}
+
+.dark-color #blog {
+    color: limegreen;
+    background-color: black;
+    border: 1px solid limegreen;
+}
+
+.dark-color #submit {
+    background: #000;
+    color: limegreen;
+    border: 1px solid limegreen;
+}
