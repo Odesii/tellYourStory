@@ -4,7 +4,7 @@ const theme = document.body;
 //sends user back to the form page
 backButton.addEventListener(`click`, function (event) {
     event.preventDefault();
-    location.href = `/index.html`;
+    location.href = `./index.html`;
 });
 //gets the user input from local storage and displays it on the page
 function getStory(){
