@@ -5,7 +5,7 @@
     Need a place to post a story?
     Built a quick blog that will prompt you for a good story. 
     this blog will log your input and automatically post it on the main blog page. 
-    The theme is based of of windows 95.
+    The theme is based off of windows 95 and inspired by the movie HACKERS .
 
 
 ## Link
