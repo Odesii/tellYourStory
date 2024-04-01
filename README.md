@@ -18,8 +18,9 @@ https://odesii.github.io/tellYourStory/
 ### CSS
 ### JS
 **Code Snippet**
-// simulates typing effect with a Blinking underscore 
 
+    Simulates typing effect with a Blinking underscore 
+```
 function textType(element, text, i = 0) {
     // Checks if the current position is less than the total length of the text
     // If so, there are still more characters to type out
@@ -52,7 +53,7 @@ function textType(element, text, i = 0) {
         }, 500); // determines how fast the cursor blinks.
     }
 }
-```
+
 
 ```
 
