@@ -9,7 +9,9 @@
 
 
 ## Link
-[Live Pages] (https://odesii.github.io/tellYourStory/) 
+**Live Pages**
+
+https://odesii.github.io/tellYourStory/
 
 ## Technologies 
 ### HTML
@@ -29,6 +31,7 @@
 
 ## Contact 
 
-**Email** Fiendseye@gmail.com
+**Git** 
 
+https://github.com/Odesii
 
