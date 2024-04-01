@@ -7,7 +7,7 @@ body{
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-image: url(/assets/images/hexy.png);
+    background-image: url(../images/hex.png);
 }
 
 .header {
@@ -68,7 +68,7 @@ p {
     border: 1px solid #000;
     background-color: #ffffff;
 }
-img { 
+.oni { 
     width: 20%;
     height: auto;
 }
@@ -82,7 +82,7 @@ button {
     margin-top: 10px;
 }
 
-img:hover {
+.oni:hover {
     transform: scale(1.1);
 
 }
