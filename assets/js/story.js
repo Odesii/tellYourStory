@@ -7,7 +7,7 @@ let storedInfo = null; // Used to store getInfo for access by textType
 
 //sends user back to the form page
 backButton.addEventListener(`click`, function (event) {
-    location.href = `/index.html`;
+    location.href = `index.html`;
 });
 
 //gets the user input from local storage and displays it on the page
