@@ -18,7 +18,7 @@ function getStory(){
     }
 }
 //calls the function to get the user input and adds that to page when page loads 
-document.addEventListener('DomContentLoaded', getStory);
+document.addEventListener('DOMContentLoaded', getStory);
 // reads local storage and sets the theme to dark if it is dark
 document.addEventListener('DOMContentLoaded', function(){
     const getTheme = localStorage.getItem('mode');
