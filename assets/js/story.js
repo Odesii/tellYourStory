@@ -1,6 +1,4 @@
 const backButton = document.querySelector("#back");
-const switchMode = document.querySelector(`#dark`);
-const theme = document.body;
 let type = document.querySelector(`p`);
 let storedInfo = null; // Used to store getInfo for access by textType
 
@@ -37,24 +35,6 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 
-// START OF DARK MODE
-let mode = `light`;
-
-switchMode.addEventListener(`click`, function(event){ 
-    event.preventDefault();
-
-
-    if (mode === 'light') {
-        mode = 'dark';
-        theme.setAttribute('class', 'dark-color');
-    }
-    
-    else {
-        mode = 'light';
-        theme.setAttribute('class', ``);
-    }
-
-});
 
 
 // Simulates typing effect with a Blinking underscore 
